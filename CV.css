@@ -1,0 +1,299 @@
+/* ----------GENERAL---------- */
+#blocpage
+{
+       display: flex;
+}
+body
+{
+    margin: 0;
+    font-family: 'Crete Round', serif;
+}
+
+
+
+/* ----------ASIDE---------- */
+#sidebar
+{
+    width: 30%;
+    background-color: #FFCA28;
+}
+.titreaside
+{
+    color: #FFCA28;
+    background-color: #424242;
+    text-align: center;
+}
+#textaproposdemoi
+{
+    text-align: center;
+    
+}
+.textcontact
+{
+    margin-left: 15%;
+}
+figure
+{
+    display: flex;
+    justify-content: center;
+}
+#logo
+{
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+    
+
+
+
+/* ----------HEADER---------- */
+.benjamin
+{
+    color: #FFCA28; 
+}
+#dev
+{
+    margin-top: -22px;
+}
+
+    
+
+
+
+/* ----------BODY---------- */
+#corps 
+{
+    width: 70%;
+    margin-left: 50px
+}
+#trait
+{
+    border-top: 1px solid #FFCA28;
+    width: 50px;
+    margin-top: -15px;
+}
+.trait1
+{
+    border-top: 1px solid #FFCA28;
+    width: 100%;
+    margin-top: -15px;
+}
+.conteneur1
+{
+   float: left;
+   margin-top: -3px;
+}
+.conteneur2 
+{
+   margin-left: 35%;
+   float: none;
+}
+ul
+{
+    list-style: none;
+}
+#recommandation1
+{
+    float: left;
+}
+#recommandation2
+{
+    float: right;
+    margin-right: 10%;
+}
+#logo4
+{
+    font-size: 150%;
+    float: left;
+    margin-right: 4%;
+}
+#logo5
+{
+    font-size: 150%;
+    float: left;
+    margin-right: 4%;
+}
+#logo6
+{
+    font-size: 150%;
+    float: left;
+    margin-right: 4%;
+}
+
+    
+
+
+
+/* ----------MEDIA 720px---------- */
+@media all and (max-width: 768px)
+{
+/* ----------GENERAL---------- */
+    #blocpage
+    {
+        flex-direction: column;
+    }
+    
+ 
+    
+/* ----------ASIDE---------- */
+    #sidebar
+    {
+        width: 100%
+    }
+    .textcontact
+    {
+        margin-left: 0%;
+        text-align: center;
+    }
+    figure
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #logo
+    {
+        margin-bottom: 3%;
+    }
+ 
+    
+    
+/* ----------HEADER---------- */    
+    header
+    {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+    .benjamin
+    {
+        color: black;
+    }
+ 
+    
+    
+/* ----------BODY---------- */
+    #recommandation2
+    {
+        margin-right: -14%;
+    }      
+}
+
+
+
+
+
+
+
+/* ----------MEDIA 450px---------- */
+@media all and (max-width: 450px)
+{
+/* ----------GENERAL---------- */
+    #blocpage
+    {
+        flex-direction: column;
+    }
+    body
+    {
+        
+    }
+    
+    
+/* ----------ASIDE---------- */
+    #sidebar
+    {
+        width: 100%
+    }
+    .titreaside
+    {
+        
+    }
+    #textaproposdemoi
+    {
+        
+    }
+    .textcontact
+    {
+        margin-left: 0%;
+        text-align: center;
+    }
+    figure
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #logo
+    {
+        margin-bottom: 3%;
+    }
+    
+/* ----------HEADER---------- */    
+    header
+    {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+    #dev
+    {
+        
+    }
+    .benjamin
+    {
+        color: black;
+    }
+ 
+/* ----------BODY---------- */
+    #corps
+    {
+        
+    }
+    #trait
+    {
+        
+    }
+    .trait1
+    {
+        
+    }
+    .conteneur1
+    {
+        
+    }
+    .conteneur2
+    {
+        
+    }
+    ul
+    {
+        
+    }
+    #recommandation1
+    {
+        
+    }
+    #recommandation2
+    {
+        margin-right: -14%;
+    }
+    #logo4
+    {
+        
+    }
+    #logo5
+    {
+        
+    }
+    #logo6
+    {
+        
+    }        
+}
+
+
+
+
+
+
