@@ -26,13 +26,15 @@ body
 #textaproposdemoi
 {
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 .textcontact
 {
     margin-left: 15%;
 }
-figure
+.profil
 {
     display: flex;
     justify-content: center;
@@ -43,10 +45,12 @@ figure
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
-
-    
-
+h4
+{
+    text-align: center;
+}
 
 
 /* ----------HEADER---------- */
@@ -90,19 +94,11 @@ figure
 {
    margin-left: 35%;
    float: none;
+   margin-right: 5%;
 }
 ul
 {
     list-style: none;
-}
-#recommandation1
-{
-    float: left;
-}
-#recommandation2
-{
-    float: right;
-    margin-right: 10%;
 }
 #logo4
 {
@@ -122,8 +118,19 @@ ul
     float: left;
     margin-right: 4%;
 }
+.textbarre
+{
+    text-align: center;
+}
+.placementbarre
+{
+    text-align: center;
+}
 
-    
+
+
+
+
 
 
 
@@ -148,7 +155,7 @@ ul
         margin-left: 0%;
         text-align: center;
     }
-    figure
+    .profil
     {
         display: flex;
         justify-content: flex-end;
@@ -178,8 +185,20 @@ ul
     #recommandation2
     {
         margin-right: -14%;
-    }      
+    }
+    .textbarre
+    {
+        text-align: center;
+    }
+    .placementbarre
+    {
+        text-align: center;    
+    }   
 }
+
+
+
+
 
 
 
@@ -195,24 +214,13 @@ ul
     {
         flex-direction: column;
     }
-    body
-    {
-        
-    }
+    
     
     
 /* ----------ASIDE---------- */
     #sidebar
     {
         width: 100%
-    }
-    .titreaside
-    {
-        
-    }
-    #textaproposdemoi
-    {
-        
     }
     .textcontact
     {
@@ -229,71 +237,119 @@ ul
         margin-bottom: 3%;
     }
     
+    
 /* ----------HEADER---------- */    
     header
     {
         position: absolute;
-        top: 30px;
+        top: 50px;
         left: 20px;
-    }
-    #dev
-    {
-        
+        font-size: 75%;
     }
     .benjamin
     {
         color: black;
     }
- 
+    
+    
 /* ----------BODY---------- */
-    #corps
-    {
-        
-    }
-    #trait
-    {
-        
-    }
-    .trait1
-    {
-        
-    }
-    .conteneur1
-    {
-        
-    }
-    .conteneur2
-    {
-        
-    }
-    ul
-    {
-        
-    }
-    #recommandation1
-    {
-        
-    }
+
     #recommandation2
     {
         margin-right: -14%;
-    }
-    #logo4
+    } 
+    .textbarre
     {
-        
+        text-align: center;
     }
-    #logo5
+    .placementbarre
     {
-        
+        text-align: center;
+        width: 100%;
     }
-    #logo6
+        .conteneur2 
     {
-        
-    }        
+        margin-left: 40%;
+    }
 }
 
 
 
 
+
+
+
+
+
+/* ----------MEDIA 375px---------- */
+@media all and (max-width: 375px)
+{
+/* ----------GENERAL---------- */
+    #blocpage
+    {
+        flex-direction: column;
+    }
+    
+    
+    
+/* ----------ASIDE---------- */
+    #sidebar
+    {
+        width: 100%
+    }
+    .textcontact
+    {
+        margin-left: 0%;
+        text-align: center;
+    }
+    figure
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #logo
+    {
+        margin-bottom: 3%;
+    }
+    
+    
+/* ----------HEADER---------- */    
+    header
+    {
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        font-size: 60%;
+    }
+    .benjamin
+    {
+        color: black;
+    }
+    
+    
+/* ----------BODY---------- */
+
+    #recommandation2
+    {
+        margin-right: -14%;
+    } 
+    #dev
+    {
+        margin-top: -8%;
+        font-size: 130%
+    }
+    .textbarre
+    {
+        text-align: center;
+    }
+    .placementbarre
+    {
+        margin-left: 5%
+    }
+    .conteneur2 
+    {
+        margin-left: 40%;
+    }
+}
 
 
