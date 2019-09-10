@@ -121,10 +121,64 @@ ul
 .textbarre
 {
     text-align: center;
+    width: 10%;
+    margin-left: 2%;
 }
 .placementbarre
 {
     text-align: center;
+    width: 30%;
+    margin-left: 0px;
+}
+.placementbarre img
+{
+    width: 100%;
+}
+.competences
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#recommandation1
+{
+    float: left;
+    margin-left: 5%;
+}
+#recommandation2
+{
+    float: right;
+    margin-right: 10%;
+}
+
+
+
+
+
+/* ----------MEDIA 1300px---------- */
+@media all and (max-width: 1300px)
+
+
+    
+    
+/* ----------BODY---------- */
+{
+    .placementbarre
+    {
+        width: 30%;
+        margin-left: 0px;
+    }
+    .placementbarre img
+    {
+        width: 100%;
+        margin-left: 17%;
+    }
+    .competences
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -134,8 +188,18 @@ ul
 
 
 
-/* ----------MEDIA 720px---------- */
-@media all and (max-width: 768px)
+
+
+
+
+
+
+
+
+
+
+/* ----------MEDIA 800px---------- */
+@media all and (max-width: 800px)
 {
 /* ----------GENERAL---------- */
     #blocpage
@@ -182,18 +246,35 @@ ul
     
     
 /* ----------BODY---------- */
-    #recommandation2
-    {
-        margin-right: -14%;
-    }
     .textbarre
     {
-        text-align: center;
+        margin-left: 55%
     }
     .placementbarre
     {
-        text-align: center;    
-    }   
+        text-align: center;
+        width: 30%;
+        margin-left: 0px;
+    }
+    .placementbarre img
+    {
+        width: 250%;
+        margin-left: 75%;
+    }
+    .competences
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #recommandation1
+    {
+        margin-left: -10%;
+    }
+    #recommandation2
+    {
+        margin-right: -20%;
+    }
 }
 
 
@@ -254,22 +335,28 @@ ul
     
 /* ----------BODY---------- */
 
-    #recommandation2
-    {
-        margin-right: -14%;
-    } 
-    .textbarre
-    {
-        text-align: center;
-    }
-    .placementbarre
-    {
-        text-align: center;
-        width: 100%;
-    }
         .conteneur2 
     {
         margin-left: 40%;
+    }
+    .textbarre
+    {
+        margin-left: 45%;
+    }
+    .placementbarre
+    {
+        width: 50%;
+        margin-left: 40%;
+    }
+    .placementbarre img
+    {
+        width: 150%;
+    }
+    .competences
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
@@ -329,26 +416,22 @@ ul
     
 /* ----------BODY---------- */
 
-    #recommandation2
-    {
-        margin-right: -14%;
-    } 
     #dev
     {
         margin-top: -8%;
         font-size: 130%
     }
-    .textbarre
-    {
-        text-align: center;
-    }
-    .placementbarre
-    {
-        margin-left: 5%
-    }
     .conteneur2 
     {
         margin-left: 40%;
+    }
+    #recommandation1
+    {
+        margin-left: 20%;
+    }
+    #recommandation2
+    {
+        margin-right: 11%;
     }
 }
 
