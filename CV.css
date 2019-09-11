@@ -47,9 +47,13 @@ body
     justify-content: space-around;
     margin-bottom: 5%;
 }
-h4
+.langue
 {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: -20px;
+    margin-top: -20px;
 }
 
 
@@ -211,7 +215,7 @@ ul
 /* ----------ASIDE---------- */
     #sidebar
     {
-        width: 100%
+        width: 100%;
     }
     .textcontact
     {
@@ -248,7 +252,7 @@ ul
 /* ----------BODY---------- */
     .textbarre
     {
-        margin-left: 55%
+        margin-left: 55%;
     }
     .placementbarre
     {
@@ -297,7 +301,7 @@ ul
 /* ----------ASIDE---------- */
     #sidebar
     {
-        width: 100%
+        width: 100%;
     }
     .textcontact
     {
@@ -357,6 +361,10 @@ ul
         flex-direction: column;
         flex-wrap: wrap;
     }
+    #titre
+    {
+        font-size: 140%;
+    }
 }
 
 
@@ -381,7 +389,7 @@ ul
 /* ----------ASIDE---------- */
     #sidebar
     {
-        width: 100%
+        width: 100%;
     }
     .textcontact
     {
@@ -418,12 +426,32 @@ ul
     #dev
     {
         margin-top: -8%;
-        font-size: 130%
+        font-size: 130%;
     }
     .conteneur2 
     {
         margin-left: 40%;
     }
+    #titre
+    {
+        font-size: 130%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
