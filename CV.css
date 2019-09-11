@@ -71,7 +71,7 @@ h4
 #corps 
 {
     width: 70%;
-    margin-left: 50px
+    margin-left: 50px;
 }
 #trait
 {
@@ -140,16 +140,15 @@ ul
     flex-direction: row;
     flex-wrap: wrap;
 }
-#recommandation1
+.recommandation
 {
-    float: left;
-    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -10%;
+    flex-wrap: wrap;
 }
-#recommandation2
-{
-    float: right;
-    margin-right: 10%;
-}
+
 
 
 
@@ -268,13 +267,9 @@ ul
         flex-direction: column;
         flex-wrap: wrap;
     }
-    #recommandation1
+    .recommandation
     {
-        margin-left: -10%;
-    }
-    #recommandation2
-    {
-        margin-right: -20%;
+        margin-left: 20%;
     }
 }
 
@@ -339,7 +334,7 @@ ul
     
 /* ----------BODY---------- */
 
-        .conteneur2 
+    .conteneur2 
     {
         margin-left: 40%;
     }
@@ -428,14 +423,6 @@ ul
     .conteneur2 
     {
         margin-left: 40%;
-    }
-    #recommandation1
-    {
-        margin-left: 20%;
-    }
-    #recommandation2
-    {
-        margin-right: 11%;
     }
 }
 
