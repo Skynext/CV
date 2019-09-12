@@ -122,6 +122,12 @@ ul
     float: left;
     margin-right: 4%;
 }
+#logo7
+{
+    font-size: 150%;
+    float: left;
+    margin-right: 4%;
+}
 .textbarre
 {
     text-align: center;
@@ -334,6 +340,7 @@ ul
     #dev
     {
         margin-top: -15px;
+        font-size: 130%;
     }
     
 /* ----------BODY---------- */
@@ -367,7 +374,7 @@ ul
         flex-wrap: wrap;
         margin-right: 5%;
     }
-    #titre
+    .titre
     {
         font-size: 140%;
     }
@@ -429,20 +436,21 @@ ul
     {
         color: black;
     }
-    
-    
-/* ----------BODY---------- */
-
     #dev
     {
         margin-top: -8%;
         font-size: 130%;
     }
+    
+    
+/* ----------BODY---------- */
+
+    
     .conteneur2 
     {
         margin-left: 40%;
     }
-    #titre
+    .titre
     {
         font-size: 130%;
     }
