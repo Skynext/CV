@@ -338,6 +338,11 @@ ul
     
 /* ----------BODY---------- */
 
+    #corps 
+    {
+        width: 90%;
+        margin-left: 20px;
+    }
     .conteneur2 
     {
         margin-left: 40%;
@@ -360,10 +365,15 @@ ul
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-right: 5%;
     }
     #titre
     {
         font-size: 140%;
+    }
+    .recommandation
+    {
+        margin-left: 0%;
     }
 }
 
@@ -435,6 +445,14 @@ ul
     #titre
     {
         font-size: 130%;
+    }
+    .recommandation
+    {
+        margin-left: 3%;
+    }
+    .competences
+    {
+        margin-left: -5%;
     }
 }
 
