@@ -2,6 +2,7 @@
 #blocpage
 {
        display: flex;
+       flex-direction: row-reverse;
 }
 body
 {
@@ -213,7 +214,7 @@ ul
 /* ----------GENERAL---------- */
     #blocpage
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
  
@@ -299,7 +300,7 @@ ul
 /* ----------GENERAL---------- */
     #blocpage
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     
@@ -398,7 +399,7 @@ ul
 /* ----------GENERAL---------- */
     #blocpage
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     
