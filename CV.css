@@ -18,20 +18,20 @@ body
     width: 30%;
     background-color: #FFCA28;
 }
-.titreaside
+h3
 {
     color: #FFCA28;
     background-color: #424242;
     text-align: center;
+    font-size: 130%;
 }
 #textaproposdemoi
 {
     text-align: center;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;  
 }
-.textcontact
+address
 {
     margin-left: 15%;
 }
@@ -224,7 +224,7 @@ ul
     {
         width: 100%;
     }
-    .textcontact
+    address
     {
         margin-left: 0%;
         text-align: center;
@@ -310,7 +310,7 @@ ul
     {
         width: 100%;
     }
-    .textcontact
+    address
     {
         margin-left: 0%;
         text-align: center;
@@ -375,7 +375,7 @@ ul
         flex-wrap: wrap;
         margin-right: 5%;
     }
-    .titre
+    h2
     {
         font-size: 140%;
     }
@@ -409,7 +409,7 @@ ul
     {
         width: 100%;
     }
-    .textcontact
+    address
     {
         margin-left: 0%;
         text-align: center;
@@ -456,7 +456,7 @@ ul
     {
         margin-left: 40%;
     }
-    .titre
+    h2
     {
         font-size: 130%;
     }
