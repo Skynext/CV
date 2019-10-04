@@ -1,11 +1,12 @@
 /* ----------GENERAL---------- */
 #blocpage
 {
-       display: flex;
-       flex-direction: row-reverse;
+       
 }
 body
 {
+    display: flex;
+    flex-direction: row-reverse;
     margin: 0;
     font-family: 'Crete Round', serif;
 }
@@ -212,7 +213,7 @@ ul
 @media all and (max-width: 800px)
 {
 /* ----------GENERAL---------- */
-    #blocpage
+    body
     {
         flex-direction: column-reverse;
     }
@@ -298,7 +299,7 @@ ul
 @media all and (max-width: 450px)
 {
 /* ----------GENERAL---------- */
-    #blocpage
+    body
     {
         flex-direction: column-reverse;
     }
@@ -397,7 +398,7 @@ ul
 @media all and (max-width: 375px)
 {
 /* ----------GENERAL---------- */
-    #blocpage
+    body
     {
         flex-direction: column-reverse;
     }
